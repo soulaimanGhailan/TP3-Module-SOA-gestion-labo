@@ -39,6 +39,7 @@ public class AuthServiceApplication {
             authService.register(new RegistrationRequestDTO("student2","CHIHAB","ILYAS","chihab@gmail.com","1234","1234"));
             authService.register(new RegistrationRequestDTO("student3","NADIR","INES","nadir@gmail.com","1234","1234"));
             authService.addRoleToUser("admin","ADMIN");
+            authService.addRoleToUser("prof1","TEACHER");
         };
     }
 }
